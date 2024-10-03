@@ -18,7 +18,7 @@ st.write(
 )
 
 # Sesuaikan path dataset di sini
-dataset_path = 'data/PRSA_Data_Aotizhongxin_20130301-20170228.csv'  # Sesuaikan path sesuai lokasi file CSV Anda
+dataset_path = 'C:\Dicoding\Data Science\Air Quality Aotizhongxin\data\PRSA_Data_Aotizhongxin_20130301-20170228.csv'  # Sesuaikan path sesuai lokasi file CSV Anda
 
 # Memuat dataset yang sudah dianalisis sebelumnya
 try:
@@ -106,10 +106,7 @@ for _, row in df.iterrows():
         fill_opacity=0.6
     ).add_to(m)
 
-st_folium(m, width=700, height=400)
-
-# Tambahkan divider di antara peta dan kesimpulan
-st.divider()
+st_folium(m, width=600, height=300)
 
 # Menampilkan kesimpulan
 st.write(
