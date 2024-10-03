@@ -106,10 +106,12 @@ for _, row in df.iterrows():
         fill_opacity=0.6
     ).add_to(m)
 
-# Menampilkan peta
-st_folium(m, width=700)
+st_folium(m, width=700, height=400)
 
-# Kesimpulan
+# Tambahkan divider di antara peta dan kesimpulan
+st.divider()
+
+# Menampilkan kesimpulan
 st.write(
     """
     ## Kesimpulan
