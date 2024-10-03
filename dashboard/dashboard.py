@@ -18,7 +18,7 @@ st.write(
 )
 
 # Sesuaikan path dataset di sini
-dataset_path = 'C:\Dicoding\Data Science\Air Quality Aotizhongxin\data\PRSA_Data_Aotizhongxin_20130301-20170228.csv'  # Sesuaikan path sesuai lokasi file CSV Anda
+dataset_path = 'data/PRSA_Data_Aotizhongxin_20130301-20170228.csv'  # Sesuaikan path sesuai lokasi file CSV Anda
 
 # Memuat dataset yang sudah dianalisis sebelumnya
 try:
