@@ -1,4 +1,5 @@
-Air Quality Dashboard with Streamlit and Folium 🌍
+#Air Quality Dashboard with Streamlit and Folium 🌍
+
 This project presents an Air Quality Dashboard that visualizes the distribution of PM2.5 concentrations in Beijing, China, using Streamlit and Folium. The dashboard displays interactive maps with clustered markers to enhance visualization and performance.
 
 Features:
